@@ -25,10 +25,10 @@ const Hero = ({ scrollToSection }) => {
             Christmas Charity Event
           </h2>
           <p className="text-2xl sm:text-3xl font-semibold text-yellow-200">
-            December 20, 2024
+            December 27, 2025
           </p>
           <p className="text-xl text-yellow-100">
-            BCT Ground, Indoor
+            5:00 PM Onwards<br></br>BCT Ground Indoor, Mundgod
           </p>
         </div>
 

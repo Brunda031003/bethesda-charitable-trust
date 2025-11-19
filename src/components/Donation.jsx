@@ -2,12 +2,13 @@ import React from 'react';
 
 const Donation = () => {
   const donationItems = [
-    { id: 1, name: 'Sewing Machines for Women Empowerment', qty: '40 sewing machines', cost: 'Rs. 6,500/- each' },
-    { id: 2, name: 'Clothes for Widows', qty: '20 sets', cost: 'Rs. 1,000/- each' },
-    { id: 3, name: 'Clothes for Poor Women in Koppa and Indoor', qty: '30 sets', cost: 'Rs. 750/- each' },
-    { id: 4, name: 'Blankets for the Handicapped', qty: '10 sets', cost: 'Rs. 1,000/- each' },
-    { id: 5, name: 'Gifts for School Kids', qty: '55 kids to be gifted', cost: 'Rs. 500/- each' },
-    { id: 6, name: 'Cash Prizes for High-Scoring Students', qty: 'Total required', cost: 'Rs. 15,000/-' }
+    { id: 1, name: 'Sewing Machines for Women Empowerment', qty: '40 sewing machines', cost: 'Rs. 5,500/- each' },
+    { id: 2, name: 'Clothes for Widows', qty: '40 beneficiaries', cost: 'Rs. 750/- each' },
+    { id: 3, name: 'Clothes for Poor Women', qty: '25 beneficiaries', cost: 'Rs. 800/- each' },
+    { id: 4, name: 'Blankets for the Differently Abled', qty: '10 beneficiaries', cost: 'Rs. 750/- each' },
+    { id: 5, name: 'Gifts for School Kids', qty: '45 kids to be gifted', cost: 'Rs. 750/- each' },
+    { id: 6, name: 'Cash Prizes for High-Scoring Students', qty: 'Total required', cost: 'Rs. 12,500/-' },
+    { id: 7, name: 'Medical Assistance', qty: 'Total required', cost: 'Rs. 10,000/-' }
   ];
 
   return (
@@ -51,23 +52,21 @@ const Donation = () => {
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 space-y-4 shadow-2xl">
-              <p className="text-lg text-center">
-                Your generous contributions can bring joy to many lives.
-              </p>
               
-              <div className="w-24 h-1 bg-yellow-300 mx-auto"></div>
+              
               
               <h4 className="text-2xl font-bold text-center text-yellow-300">
                 Let's Spread the Spirit of Christmas Together!
               </h4>
               
+              <div className="w-24 h-1 bg-yellow-300 mx-auto"></div>
+   
+
               <p className="text-center leading-relaxed">
-                Your support can bring smiles and hope to those in need.
+                As part of our continued mission to uplift the underprivileged communities in the remote villages of North Karnataka, we will be extending support through the following initiatives:
               </p>
               
-              <p className="text-center leading-relaxed">
-                Every contribution counts. Join hands with us to make this event a grand success.
-              </p>
+              
             </div>
 
             {/* Account Details */}
