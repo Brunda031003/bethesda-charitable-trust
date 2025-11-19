@@ -17,28 +17,30 @@ const Donation = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Donation Items Table */}
           <div>
-            <h2 className="text-4xl font-bold mb-8 text-center">DONATION ITEMS</h2>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-2xl">
-              <table className="w-full">
-                <thead className="bg-green-800">
-                  <tr>
-                    <th className="p-4 text-left">#</th>
-                    <th className="p-4 text-left">ITEM NAME</th>
-                    <th className="p-4 text-left">QTY NEEDED</th>
-                    <th className="p-4 text-left">PER ITEM COST</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {donationItems.map((item, idx) => (
-                    <tr key={item.id} className={idx % 2 === 0 ? 'bg-green-700/40' : 'bg-green-600/30'}>
-                      <td className="p-4 font-bold">{item.id}</td>
-                      <td className="p-4">{item.name}</td>
-                      <td className="p-4 font-semibold">{item.qty}</td>
-                      <td className="p-4 font-bold text-yellow-300">{item.cost}</td>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center">DONATION ITEMS</h2>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl shadow-2xl">
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead className="bg-green-800">
+                    <tr>
+                      <th className="p-2 sm:p-4 text-left text-sm sm:text-base">#</th>
+                      <th className="p-2 sm:p-4 text-left text-sm sm:text-base">ITEM NAME</th>
+                      <th className="p-2 sm:p-4 text-left text-sm sm:text-base">QTY NEEDED</th>
+                      <th className="p-2 sm:p-4 text-left text-sm sm:text-base">PER ITEM COST</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {donationItems.map((item, idx) => (
+                      <tr key={item.id} className={idx % 2 === 0 ? 'bg-green-700/40' : 'bg-green-600/30'}>
+                        <td className="p-2 sm:p-4 font-bold text-sm sm:text-base">{item.id}</td>
+                        <td className="p-2 sm:p-4 text-sm sm:text-base">{item.name}</td>
+                        <td className="p-2 sm:p-4 font-semibold text-sm sm:text-base">{item.qty}</td>
+                        <td className="p-2 sm:p-4 font-bold text-yellow-300 text-sm sm:text-base">{item.cost}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
