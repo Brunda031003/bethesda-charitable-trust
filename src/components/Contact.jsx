@@ -15,21 +15,15 @@ const Contact = () => {
   return (
     <section id="contact" className="min-h-screen py-20 px-4 flex items-center">
       <div className="max-w-4xl mx-auto w-full">
-        <div className="text-center mb-12">
-          <div className="inline-block mb-6">
-            <svg width="200" height="100" viewBox="0 0 200 100" className="mx-auto">
-              <path d="M20,20 Q50,10 80,30 L100,50 L120,30 Q150,10 180,20" 
-                    fill="none" stroke="#FCD34D" strokeWidth="3"/>
-              <text x="50" y="60" fill="#FCD34D" fontSize="24" fontWeight="bold">contact us!</text>
-            </svg>
-          </div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-6xl font-bold mb-8 text-yellow-300">Contact Us</h2>
         </div>
 
         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 shadow-2xl">
           <div className="grid sm:grid-cols-2 gap-6">
             {contacts.map((contact, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="bg-red-900/50 p-6 rounded-lg hover:bg-red-900/70 transition-colors"
               >
                 <h3 className="text-xl font-bold mb-2">{contact.name}</h3>

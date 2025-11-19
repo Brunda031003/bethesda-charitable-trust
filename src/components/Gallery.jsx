@@ -18,11 +18,7 @@ const Gallery = () => {
     <section id="gallery" className="min-h-screen py-20 px-4 bg-red-800/50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-6xl font-bold mb-4 uppercase">Gallery</h2>
-          <p className="text-2xl text-yellow-300 font-semibold">Christmas Charity Event 2023</p>
-          <div className="mt-4 inline-block">
-            <span className="text-8xl font-bold tracking-widest">BCT</span>
-          </div>
+          <h2 className="text-6xl font-bold mb-4 uppercase">BCT Gallery</h2>          
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
