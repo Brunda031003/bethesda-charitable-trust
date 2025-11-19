@@ -63,7 +63,7 @@ const Donation = () => {
    
 
               <p className="text-center leading-relaxed">
-                As part of our continued mission to uplift the underprivileged communities in the remote villages of North Karnataka, we will be extending support through the following initiatives:
+                As part of our continued mission to uplift the underprivileged communities in the remote villages of North Karnataka, we will be extending support through these initiatives.
               </p>
               
               
