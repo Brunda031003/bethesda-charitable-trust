@@ -35,14 +35,14 @@ const About = () => {
           
           <div className="space-y-4">
             <img 
-              src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600" 
+              src="/images/1.jpg" 
               alt="Community gathering" 
-              className="rounded-lg shadow-2xl w-full"
+              className="rounded-lg shadow-2xl w-[450px] mx-auto"
             />
             <img 
-              src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600" 
+              src="/images/2.jpg" 
               alt="Charity event" 
-              className="rounded-lg shadow-2xl w-full"
+              className="rounded-lg shadow-2xl w-[450px] mx-auto"
             />
           </div>
         </div>

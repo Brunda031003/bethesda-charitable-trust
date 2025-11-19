@@ -3,13 +3,14 @@ import { Phone } from 'lucide-react';
 
 const Contact = () => {
   const contacts = [
-    { name: 'SAJI THOMAS PAREL', phone: '9341259500' },
-    { name: 'BIJU THOMAS', phone: '9901288994' },
-    { name: 'SUNNY GEORGE PAREL', phone: '9980144566' },
-    { name: 'JIJI PAREL', phone: '9845079490' },
-    { name: 'EBU P JOY', phone: '9845405015' },
-    { name: 'SALU GEORGE', phone: '9845079490' },
-    { name: 'BIJU M PAREL', phone: '9740605546' }
+    { name: 'SAJI THOMAS PAREL', phone: '+91 9341259500' },
+    { name: 'BIJU THOMAS', phone: '+91 9901288994' },
+    { name: 'SUNNY GEORGE PAREL', phone: '+91 9980144566' },
+    { name: 'JIJI PAREL', phone: '+91 9845079490' },
+    { name: 'EBU P JOY', phone: '+91 9845405015' },
+    { name: 'SALU GEORGE', phone: '+91 9980176394' },
+    { name: 'BIJU M PAREL', phone: '+91 9740605546' },
+    { name: 'REJI PAREL', phone: '+1 5615427699' },
   ];
 
   return (
