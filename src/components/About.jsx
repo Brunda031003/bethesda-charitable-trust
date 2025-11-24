@@ -12,37 +12,28 @@ const About = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6 text-lg leading-relaxed">
+          <div className="text-white text-base md:text-lg leading-relaxed space-y-6 max-w-prose mx-auto md:mx-0 text-justify">
             <p>
-              Bethesda Charitable Trust (BCT) is a dedicated nonprofit organization committed to uplifting underserved communities through meaningful initiatives and heartfelt outreach.
-            </p>
-            <p>
-              Rooted in the values of compassion, empowerment, and inclusivity, we strive to bring joy, dignity, and hope to the lives of those in need. Through a variety of programs, including women's empowerment, education support, and aid for marginalized groups, we aim to make a lasting difference.
+              Bethesda Charitable Trust (BCT) is a nonprofit organization dedicated to uplifting underserved communities through impactful programs and meaningful outreach. Our mission is to empower individuals, promote self-reliance, and bring hope, dignity, and opportunity to those in need.
             </p>
             <p>
-              Our mission extends beyond charity—it is about building a stronger, united community where everyone has an opportunity to thrive. Each year, BCT organizes impactful events like the Christmas Charity Event to mobilize resources for initiatives such as providing sewing machines, clothes, school supplies, and financial aid to those in need.
+              We work across diverse areas including women’s empowerment, vocational training, education for underprivileged children, healthcare support, and assistance for the elderly and widows. Each year, BCT organizes initiatives such as tailoring training, distribution of sewing machines, scholarship programs, medical camps, social awareness programs, and mass weddings for financially constrained couples.
             </p>
-            <p className="font-semibold text-yellow-300">
-              With your support, we continue to transform lives, one small step at a time. Join us in spreading the spirit of kindness and sharing the joy of giving. Together, we can create a brighter future for all.
+            <p>
+              By providing resources, guidance, and opportunities, we enable individuals to thrive and communities to flourish. Driven by compassion, inclusivity, and sustainability, BCT strives to create a brighter, more equitable future. With the support of donors, volunteers, and partners, we continue to transform lives and strengthen communities, one initiative at a time.
             </p>
-            <div className="pt-4">
-              <Mail className="inline w-5 h-5 mr-2" />
-              <a href="mailto:bct2012koppa@yahoo.in" className="text-yellow-300 hover:underline">
-                bct2012koppa@yahoo.in
-              </a>
-            </div>
           </div>
           
           <div className="space-y-4">
             <img 
-              src="/images/1.jpg" 
+              src="/images/about1.jpg" 
               alt="Community gathering" 
-              className="rounded-lg shadow-2xl w-[450px] mx-auto"
+              className="rounded-lg shadow-2xl w-[375px] mx-auto"
             />
             <img 
-              src="/images/2.jpg" 
+              src="/images/about2.jpg" 
               alt="Charity event" 
-              className="rounded-lg shadow-2xl w-[450px] mx-auto"
+              className="rounded-lg shadow-2xl w-[375px] mx-auto"
             />
           </div>
         </div>

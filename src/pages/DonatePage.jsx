@@ -21,7 +21,7 @@ const DonatePage = () => {
       className="min-h-screen text-white px-4 py-6 md:px-10 md:py-10 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
-          "url('images/background.png')",
+          "url('images/background.webp')",
       }}
     >
       <style>{headingFont}</style>
@@ -57,7 +57,7 @@ const DonatePage = () => {
       <div className="max-w-5xl mx-auto bg-red-900/80 backdrop-blur-md rounded-3xl p-6 md:p-10 shadow-2xl border border-red-700/40">
 
         {/* QUOTE CARD */}
-        <div className="bg-green-900/40 p-4 md:p-6 rounded-xl mb-8 border border-green-700/40">
+        <div className="bg-green-900 p-4 md:p-6 rounded-xl mb-8 border border-green-700/40">
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-300">
             “Changing Lives, One Village At A Time”
           </h3>
@@ -70,7 +70,7 @@ const DonatePage = () => {
           {/* STATS */}
           <div className="flex justify-center gap-6 sm:gap-10 mt-6 text-xs sm:text-base">
             <div className="text-center">
-              <p className="text-2xl sm:text-4xl font-bold text-yellow-300">5+</p>
+              <p className="text-2xl sm:text-4xl font-bold text-yellow-300">13+</p>
               <p className="text-white/80">Years</p>
             </div>
             <div className="text-center">
@@ -92,7 +92,7 @@ const DonatePage = () => {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-white/20">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm sm:text-base">
-              <thead className="bg-green-800 text-white uppercase text-xs sm:text-sm">
+              <thead className="bg-green-900 text-white uppercase text-xs sm:text-sm">
                 <tr>
                   <th className="p-3 sm:p-4">#</th>
                   <th className="p-3 sm:p-4">Item Name</th>
@@ -121,7 +121,33 @@ const DonatePage = () => {
             </table>
           </div>
         </div>
-                {/* CONTACTS FOR DONATION */}
+
+        {/* ACCOUNT DETAILS SECTION */}
+        <div className="mt-12 px-4">
+          <div className="bg-white/10 backdrop-blur-md border border-yellow-400 
+                          shadow-lg rounded-2xl p-6 w-full">
+            <h2 className="text-3xl font-extrabold text-center text-yellow-300 mb-6 tracking-wide drop-shadow">
+              BANK ACCOUNT DETAILS
+            </h2>
+
+            <div className="grid grid-cols-2 gap-4 text-lg text-white font-semibold">
+
+              <div className="text-right opacity-80">Account Name:</div>
+              <div className="text-left text-yellow-300">Bethesda Charitable Trust</div>
+
+              <div className="text-right opacity-80">Account Number:</div>
+              <div className="text-left text-yellow-300">123456789012</div>
+
+              <div className="text-right opacity-80">IFSC Code:</div>
+              <div className="text-left text-yellow-300">XXXX0123456</div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* CONTACTS FOR DONATION */}
         <div className="mt-8 sm:mt-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-center text-yellow-300 mb-6 tracking-wide drop-shadow">
             CONTACT FOR DONATION
@@ -130,18 +156,18 @@ const DonatePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 px-2 sm:px-4">
             {[
               { name: 'SAJI THOMAS PAREL', phone: '+91 9341259500' },
-              { name: 'BIJU THOMAS', phone: '+91 9901288994' },
               { name: 'SUNNY GEORGE PAREL', phone: '+91 9980144566' },
-              { name: 'JIJI PAREL', phone: '+91 9845079490' },
-              { name: 'EBU P JOY', phone: '+91 9845405015' },
-              { name: 'SALU GEORGE', phone: '+91 9980176394' },
-              { name: 'BIJU M PAREL', phone: '+91 9740605546' },
               { name: 'REJI PAREL', phone: '+1 5615427699' },
+              { name: 'EBU P JOY', phone: '+91 9845405015' },
+              { name: 'JIJI PAREL', phone: '+91 9845079490' },
+              { name: 'BIJU M PAREL', phone: '+91 9740605546' },
+              { name: 'BIJU THOMAS', phone: '+91 9901288994' },           
+              { name: 'SALU GEORGE', phone: '+91 9980176394' }                   
             ].map((person, index) => (
               <div
                 key={index}
-                className="px-4 py-2 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-300 
-                          text-red-900 font-bold shadow-md hover:shadow-xl transition-all
+                className="px-4 py-2 rounded-full bg-gradient-to-r bg-green-900
+                          text-yellow-300 font-bold shadow-md hover:shadow-xl transition-all
                           flex items-center justify-between transform hover:scale-[1.03]"
               >
                 <span className="text-base sm:text-lg">{person.name}</span>
