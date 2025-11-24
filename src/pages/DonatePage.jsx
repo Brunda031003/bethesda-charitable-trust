@@ -1,0 +1,159 @@
+import React from "react";
+
+// Add Google Font
+const headingFont = `
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+`;
+
+const DonatePage = () => {
+  const donationItems = [
+    { id: 1, name: "Sewing Machines for Women Empowerment", qty: "40 sewing machines", cost: "Rs. 5,500/- each" },
+    { id: 2, name: "Clothes for Widows", qty: "40 beneficiaries", cost: "Rs. 750/- each" },
+    { id: 3, name: "Clothes for Poor Women", qty: "25 beneficiaries", cost: "Rs. 800/- each" },
+    { id: 4, name: "Blankets for the Differently Abled", qty: "10 beneficiaries", cost: "Rs. 750/- each" },
+    { id: 5, name: "Gifts for School Kids", qty: "45 kids", cost: "Rs. 750/- each" },
+    { id: 6, name: "Cash Prizes for Students", qty: "Total required", cost: "Rs. 12,500/-" },
+    { id: 7, name: "Medical Assistance", qty: "Total required", cost: "Rs. 10,000/-" },
+  ];
+
+  return (
+    <div
+      className="min-h-screen text-white p-10 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage:
+          "url('images/background.png",
+      }}
+    >
+      <style>{headingFont}</style>
+
+      {/* HEADER SECTION */}
+      <div className="max-w-6xl mx-auto text-center space-y-6 py-10">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+
+          {/* TEXT */}
+          <div>
+            <h1
+              className="text-6xl font-extrabold text-yellow-300"
+              style={{ fontFamily: "Great Vibes, cursive" }}
+            >
+              BCT Christmas Charity Event
+            </h1>
+
+            <p className="text-2xl font-semibold text-yellow-200 mt-4">
+              December 27, 2025 • 5:00 PM Onwards <br />
+              BCT Ground Indoor, Mundgod
+            </p>
+
+            <h4 className="text-2xl font-bold text-yellow-300 pt-4">
+              Let's Spread the Spirit of Christmas Together!
+            </h4>
+
+            <div className="w-28 h-1 bg-yellow-300 mx-auto rounded-full mt-3"></div>
+          </div>
+        </div>
+      </div>
+
+      {/* RED CARD WRAPPER */}
+      <div className="max-w-5xl mx-auto bg-red-900/80 backdrop-blur-md rounded-3xl p-10 shadow-2xl border border-red-700/40">
+
+        {/* QUOTE CARD */}
+        <div className="bg-green-900/40 p-6 rounded-xl mb-10 border border-green-700/40">
+          <h3 className="text-2xl font-bold text-yellow-300">
+            “Changing Lives, One Village At A Time”
+          </h3>
+
+          <p className="text-white/90 mt-3 leading-relaxed">
+            These enhanced initiatives aim to uplift underprivileged communities
+            in the remote areas of North Karnataka...
+          </p>
+
+          {/* STATS */}
+          <div className="flex justify-center gap-10 mt-6">
+            <div className="text-center">
+              <p className="text-4xl font-bold text-yellow-300">5+</p>
+              <p className="text-white/80">Years</p>
+            </div>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-yellow-300">10+</p>
+              <p className="text-white/80">Communities</p>
+            </div>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-yellow-300">100+</p>
+              <p className="text-white/80">Families</p>
+            </div>
+          </div>
+        </div>
+
+        {/* DONATION TABLE */}
+        <h2 className="text-4xl font-extrabold mb-6 text-center">
+          DONATION ITEMS
+        </h2>
+
+        <div className="bg-white/10 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden border border-white/20">
+          <div className="overflow-x-auto">
+            <table className="w-full text-left">
+              <thead className="bg-green-800 text-white uppercase text-sm">
+                <tr>
+                  <th className="p-4">#</th>
+                  <th className="p-4">Item Name</th>
+                  <th className="p-4">Qty Needed</th>
+                  <th className="p-4">Cost</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {donationItems.map((item, idx) => (
+                  <tr
+                    key={item.id}
+                    className={
+                      idx % 2 === 0
+                        ? "bg-green-700/40 text-white"
+                        : "bg-green-600/30 text-white"
+                    }
+                  >
+                    <td className="p-4 font-bold">{item.id}</td>
+                    <td className="p-4">{item.name}</td>
+                    <td className="p-4 font-semibold">{item.qty}</td>
+                    <td className="p-4 font-bold text-yellow-300">{item.cost}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+                {/* CONTACTS FOR DONATION */}
+        <div className="mt-12">
+          <h2 className="text-3xl font-extrabold text-center text-yellow-300 mb-6 tracking-wide drop-shadow">
+            CONTACT FOR DONATION
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-4">
+            {[
+              { name: 'SAJI THOMAS PAREL', phone: '+91 9341259500' },
+              { name: 'BIJU THOMAS', phone: '+91 9901288994' },
+              { name: 'SUNNY GEORGE PAREL', phone: '+91 9980144566' },
+              { name: 'JIJI PAREL', phone: '+91 9845079490' },
+              { name: 'EBU P JOY', phone: '+91 9845405015' },
+              { name: 'SALU GEORGE', phone: '+91 9980176394' },
+              { name: 'BIJU M PAREL', phone: '+91 9740605546' },
+              { name: 'REJI PAREL', phone: '+1 5615427699' },
+            ].map((person, index) => (
+              <div
+                key={index}
+                className="px-6 py-3 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-300 
+                          text-red-900 font-bold shadow-md hover:shadow-xl transition-all
+                          flex items-center justify-between transform hover:scale-[1.03]"
+              >
+                <span className="text-lg">{person.name}</span>
+                <span className="text-md">{person.phone}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  );
+};
+
+export default DonatePage;

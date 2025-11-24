@@ -16,7 +16,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
   const navItems = [
     { id: 'home', label: 'HOME' },
     { id: 'about', label: 'ABOUT US' },
-    { id: 'donation', label: 'DONATION' },
+    // { id: 'donation', label: 'DONATION' },
     { id: 'gallery', label: 'GALLERY' },
     { id: 'contact', label: 'CONTACT US' }
   ];

@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold mb-4 inline-block border-b-4 border-yellow-300 pb-2">
-            BETHESDA CHARITABLE TRUST
+            ABOUT US
           </h2>
         </div>
         

@@ -1,10 +1,17 @@
 import React from 'react';
 import { Gift } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
-const Hero = ({ scrollToSection }) => {
+const Hero = () => {
+  const navigate = useNavigate();
+
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-4">
-      <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-in">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 px-4">
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-40 z-0" 
+        style={{ backgroundImage: "url('/images/2.jpg')" }} 
+      ></div>
+      <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8 animate-fade-in">
         <div className="mb-8">
           <div className="inline-flex items-center space-x-3 text-yellow-300 mb-4">
             <div className="w-16 h-1 bg-yellow-300"></div>
@@ -13,10 +20,15 @@ const Hero = ({ scrollToSection }) => {
           </div>
         </div>
         
-        <h1 className="text-5xl sm:text-7xl font-bold mb-6 tracking-tight">
-          BETHESDA CHARITABLE TRUST
-        </h1>
-        
+        <div className="space-y-0 !space-y-0">
+          <h1 className="text-5xl sm:text-7xl font-bold tracking-tight !mb-0">
+            BETHESDA CHARITABLE TRUST
+          </h1>
+          <p className="text-xl text-white-100 leading-tight">
+            Giving Help And Hope
+          </p>
+        </div>
+
         <div className="space-y-4 text-lg sm:text-xl">
           <p className="font-semibold text-yellow-300 text-2xl sm:text-3xl">
             PRESENTS
@@ -34,7 +46,7 @@ const Hero = ({ scrollToSection }) => {
 
         <div className="pt-0">
           <button 
-            onClick={() => scrollToSection('donation')}
+            onClick={() => navigate('/donate')}
             className="bg-yellow-400 text-red-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-xl"
           >
             DONATE NOW

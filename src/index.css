@@ -32,3 +32,8 @@ body {
 .animate-fade-in {
   animation: fade-in 1s ease-out;
 }
+
+.mask-image-gradient {
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
