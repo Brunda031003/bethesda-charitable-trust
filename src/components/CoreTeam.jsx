@@ -1,4 +1,3 @@
-import { Phone } from 'lucide-react';
 import React from 'react';
 
 const teamMembers = [
