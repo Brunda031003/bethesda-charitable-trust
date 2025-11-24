@@ -49,7 +49,7 @@ const Hero = () => {
             onClick={() => navigate('/donate')}
             className="bg-yellow-400 text-red-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-xl"
           >
-            DONATE NOW
+            Know More
           </button>
         </div>
       </div>
