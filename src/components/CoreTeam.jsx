@@ -7,7 +7,7 @@ const teamMembers = [
   { role: 'Intl. Coordinator', name: 'Reji Parel', image: '/images/team/Reji%20Parel.jpg'  , phone : '+1 5615427699' },
   { role: 'Treasurer', name: 'Jiji Parel', image: '/images/team/Jiji%20Parel.jpg' , phone : '+91 9845079490' },
   { role: 'Joint Secretary', name: 'Ebu Joy', image: '/images/team/Ebu%20Joy.jpg' , phone : '+91 9845405015' },
-  { role: 'Member', name: 'Salu Georg', image: '/images/team/Salu%20George.jpg' , phone : '+91 9980176394' },
+  { role: 'Member', name: 'Salu George', image: '/images/team/Salu%20George.jpg' , phone : '+91 9980176394' },
   { role: 'Member', name: 'Biju Mani', image: '/images/team/Biju%20Mani.jpg' , phone : '+91 9740605546' }
   
 ];
