@@ -2,13 +2,14 @@ import React from 'react';
 
 const teamMembers = [
   { role: 'President', name: 'Saji Thomas Parel', image: '/images/team/Saji%20Thomas%20Parel.jpg' , phone : '+91 9341259500' },
-  { role: 'Vice President', name: 'Sunny George', image: '/images/team/Sunny%20George.jpg', phone : '+91 9980144566' },
+  { role: 'Vice President', name: 'Biju Thomas', image: '/images/team/Biju%20Thomas.jpg' , phone : '+91 9901288994'},
+  { role: 'Secretary', name: 'Sunny George', image: '/images/team/Sunny%20George.jpg', phone : '+91 9980144566' },
   { role: 'Intl. Coordinator', name: 'Reji Parel', image: '/images/team/Reji%20Parel.jpg'  , phone : '+1 5615427699' },
-  { role: 'Joint Secretary', name: 'Ebu Joy', image: '/images/team/Ebu%20Joy.jpg' , phone : '+91 9845405015' },
   { role: 'Treasurer', name: 'Jiji Parel', image: '/images/team/Jiji%20Parel.jpg' , phone : '+91 9845079490' },
-  { role: 'Member', name: 'Biju Mani', image: '/images/team/Biju%20Mani.jpg' , phone : '+91 9740605546' },
-  { role: 'Member', name: 'Biju Thomas', image: '/images/team/Biju%20Thomas.jpg' , phone : '+91 9901288994'},
-  { role: 'Member', name: 'Salu Georg', image: '/images/team/Salu%20George.jpg' , phone : '+91 9980176394' }
+  { role: 'Joint Secretary', name: 'Ebu Joy', image: '/images/team/Ebu%20Joy.jpg' , phone : '+91 9845405015' },
+  { role: 'Member', name: 'Salu Georg', image: '/images/team/Salu%20George.jpg' , phone : '+91 9980176394' },
+  { role: 'Member', name: 'Biju Mani', image: '/images/team/Biju%20Mani.jpg' , phone : '+91 9740605546' }
+  
 ];
 
 const CoreTeam = () => {

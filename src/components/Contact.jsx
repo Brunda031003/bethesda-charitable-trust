@@ -3,10 +3,10 @@ import { Phone, Mail } from 'lucide-react';
 
 const Contact = () => {
   const contacts = [
+    { name: 'BIJU THOMAS', phone: '+91 9901288994' },
     { name: 'SUNNY GEORGE PAREL', phone: '+91 9980144566' },
     { name: 'EBU P JOY', phone: '+91 9845405015' },
     { name: 'BIJU M PAREL', phone: '+91 9740605546' },
-    { name: 'BIJU THOMAS', phone: '+91 9901288994' }
   ]
   const bctEmail = 'bethesdacharity@example.com';
 

@@ -136,10 +136,10 @@ const DonatePage = () => {
               <div className="text-left text-yellow-300">Bethesda Charitable Trust</div>
 
               <div className="text-right opacity-80">Account Number:</div>
-              <div className="text-left text-yellow-300">123456789012</div>
+              <div className="text-left text-yellow-300">67207616428</div>
 
               <div className="text-right opacity-80">IFSC Code:</div>
-              <div className="text-left text-yellow-300">XXXX0123456</div>
+              <div className="text-left text-yellow-300">SBIN0070715</div>
 
             </div>
           </div>
@@ -155,14 +155,14 @@ const DonatePage = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 px-2 sm:px-4">
             {[
-              { name: 'SAJI THOMAS PAREL', phone: '+91 9341259500' },
-              { name: 'SUNNY GEORGE PAREL', phone: '+91 9980144566' },
-              { name: 'REJI PAREL', phone: '+1 5615427699' },
-              { name: 'EBU P JOY', phone: '+91 9845405015' },
-              { name: 'JIJI PAREL', phone: '+91 9845079490' },
-              { name: 'BIJU M PAREL', phone: '+91 9740605546' },
-              { name: 'BIJU THOMAS', phone: '+91 9901288994' },           
-              { name: 'SALU GEORGE', phone: '+91 9980176394' }                   
+              { name: 'Saji Thomas Parel',phone : '+91 9341259500' },
+              { name: 'Biju Thomas', phone : '+91 9901288994'},
+              { name: 'Sunny George', phone : '+91 9980144566' },
+              { name: 'Reji Parel', phone : '+1 5615427699' },
+              { name: 'Jiji Parel',  phone : '+91 9845079490' },
+              { name: 'Ebu Joy',  phone : '+91 9845405015' },
+              {name: 'Salu Georg',  phone : '+91 9980176394' },
+              {name: 'Biju Mani',  phone : '+91 9740605546' }                   
             ].map((person, index) => (
               <div
                 key={index}
