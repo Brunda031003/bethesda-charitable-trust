@@ -161,7 +161,7 @@ const DonatePage = () => {
               { name: 'Reji Parel', phone : '+1 5615427699' },
               { name: 'Jiji Parel',  phone : '+91 9845079490' },
               { name: 'Ebu Joy',  phone : '+91 9845405015' },
-              {name: 'Salu Georg',  phone : '+91 9980176394' },
+              {name: 'Salu George',  phone : '+91 9980176394' },
               {name: 'Biju Mani',  phone : '+91 9740605546' }                   
             ].map((person, index) => (
               <div

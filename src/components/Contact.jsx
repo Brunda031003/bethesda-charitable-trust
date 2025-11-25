@@ -8,7 +8,7 @@ const Contact = () => {
     { name: 'EBU P JOY', phone: '+91 9845405015' },
     { name: 'BIJU M PAREL', phone: '+91 9740605546' },
   ]
-  const bctEmail = 'bethesdacharity@example.com';
+  const bctEmail = 'bct2012koppa@yahoo.in';
 
   return (
     <section id="contact" className="min-h-screen py-20 px-4 flex items-center">

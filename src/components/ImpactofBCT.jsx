@@ -21,7 +21,7 @@ const activities = [
   },
   {
     title: "Medical Assistance",
-    image: "/images/Medical.jpg",
+    image: "/images/Medical1.jpg",
     alt: "Helping hands",
     description: "We provide medical assistance to the needy by partnering with and clinics for free or low-cost care. We also organize medical camps in underserved areas and supply essential medications and medical equipment"
   }
